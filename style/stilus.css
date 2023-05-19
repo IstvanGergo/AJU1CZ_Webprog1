@@ -1,6 +1,6 @@
 header {
     border-radius: 10px;
-    background-color: yellow;
+    background-color: rgb(110, 59, 0);
     padding: 10px;
     margin: 10px;
 }
@@ -49,7 +49,7 @@ div#content {
     display: table-cell;
     width: 100%;
     border-radius: 10px;
-    background-color: #99FFCC;
+    background-color: #ffd000;
     padding: 15px;
 }
 
@@ -66,5 +66,5 @@ footer {
     border-radius: 10px;
     margin: 10px;
     padding: 5px 20px;
-    background-color: #CC99FF;
+    background-color:forestgreen;
 }

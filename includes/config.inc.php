@@ -1,12 +1,21 @@
-$fejl閏 = array(
-'c韒' => 'Istv醤 Gerg?',
+<?php
+$ablakcim = array(
+ 'cim' => 'Istv谩n Gerg艖',
 );
-
+$fejlec = array(
+ 'kepforras' => 'logo.png',
+ 'kepalt' => 'logo',
+'cim' => 'Tacsk贸 Rajong贸 oldal',
+'motto' => ''
+);
+$lablec = array(
+ 'copyright' => 'Copyright '.date("Y").'.', 
+ 'ceg' => 'Tacsk贸 Rajong贸 oldal'
+);
 $oldalak = array(
-'/' => array('fajl' => 'kezdo', 'szoveg' => 'Kezdolap'),
-'magamrol' => array('fajl' => 'kepgaleria.tpl.php', 'szoveg' => 'Kepgaleria'),
-'kapcsolat' => array('fajl' => 'kapcsolat.tpl.php', 'szoveg' => 'kapcsolat'),
+'/' =>array('fajl' => 'cimlap', 'szoveg' => 'C铆mlap', 'menu' => 1),
+'kapcsolat' =>array('fajl' => 'kapcsolat', 'szoveg' => 'Kapcsolat', 'menu' => 1),
+'kepgaleria' =>array('fajl' => 'kepgaleria', 'szoveg' => 'K茅pgal茅ria', 'menu' => 1)
 );
-
-$hiba_oldal = array ('fajl' => '404', 
-'szoveg' => 'A keresett oldal nem talalhato'); 
+$hiba_oldal = array ('fajl' => '404', 'szoveg' => 'A keresett oldal nem tal谩lhat贸!', 'menu' => 0);
+?>
